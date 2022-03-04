@@ -1,0 +1,29 @@
+.buttonWrap{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.tabButton{
+    width: 40px;
+    height: 40px;
+    background-color: #262626;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.tabButton:last-child{
+    margin-left: 20px;
+}
+.active{
+    background-color: #0077ff;
+}
+.actionButtonWrap{
+    margin-top: 40px;
+}
